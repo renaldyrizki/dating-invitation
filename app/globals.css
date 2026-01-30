@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
+/* Force light mode */
 :root {
+  color-scheme: light;
   --background: #fafafa;
   --foreground: #171717;
 }
@@ -10,12 +12,12 @@
   --color-foreground: var(--foreground);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);
