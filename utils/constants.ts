@@ -1,5 +1,5 @@
 export const OPENING = {
-  runningText: "Hey El… Aku mau nanya sesuatu niiihh hehe 😊",
+  runningText: "Hey Hey El… Aku mau nanya sesuatu niiihh hehe 😊",
   buttonText: "Apaaa!?",
 };
 
@@ -13,21 +13,25 @@ export const MEETUP_INVITATION = {
 
 export const DATE = {
   question: "Kamu Bisanya Kapan?",
+  notes: "Bisa lebih dari satu yaaa",
   buttonText: "Lanjuuutt 👉🏻",
 };
 
 export const ACTIVITIES = {
-  question: "Mau ngapain kita?",
-  options: ["Ngopi", "Jajan", "Nonton", "Timezone"],
-  anotherOptionPlaceholder: "Atau coba tulis kalo ada ide lain...",
-  confirmButtonText: "😃😃😃",
+  question: "Mau kemana kitaa? aku ada beberapa ide, tap love kalo menarik",
+  notes: "Bisa lebiih dari satu juga yaaa",
+  options: ["Ngopi", "Nonton", "Jalan-Jalan Jajan", "Main Game", "Piknik"],
+  anotherOptionPlaceholder:
+    "Siapa tau kamu kepikiran ide main lain, spilll disinii!",
+  confirmButtonText: "Gasss 🚀",
 };
 
 export const SUMMARY = {
-  title: "Summary ✨",
-  meetupAnswerTitle: "Meetup Answer",
-  selectedDatesTitle: "Selected Dates",
-  activitiesTitle: "Activities",
+  title: "Halaman Terakhirrr hahahaa",
+  meetupAnswerTitle: "Tentang kita ketemu lagi",
+  thanksMessage: "Makasih yaa udah mau aku ajak main lagi",
+  selectedDatesTitle: "Tanggal yang kamu bisaa",
+  activitiesTitle: "Opsi yang bakal kita lakuin",
   buttonText: "Confirm! ☑️",
 };
 

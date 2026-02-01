@@ -61,7 +61,7 @@ export default function Page2() {
         <p className="text-lg mb-4">
           {DATE.question}
           <span className="block text-sm italic text-gray-500">
-            *Bisa pilih lebih dari satu tanggal yaa
+            {DATE.notes}
           </span>
         </p>
 

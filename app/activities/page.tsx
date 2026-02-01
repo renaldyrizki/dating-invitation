@@ -53,7 +53,7 @@ export default function Page3() {
       <div className="w-full max-w-sm bg-[#fafafa] rounded-3xl p-6 text-center shadow-[10px_10px_20px_#d1d1d1,-10px_-10px_20px_#ffffff]">
         <h2 className="text-lg font-medium mb-1 m-0">{ACTIVITIES.question}</h2>
         <p className="text-sm italic text-gray-500 mt-1 mb-5 m-0">
-          *Bisa pilih lebih dari satu aktivitas yaa
+          {ACTIVITIES.notes}
         </p>
 
         <div className="flex flex-col gap-4 mb-6">

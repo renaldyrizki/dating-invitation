@@ -108,7 +108,9 @@ export default function SummaryPage() {
           <p className="text-sm text-gray-500 mb-1">
             {SUMMARY.meetupAnswerTitle}
           </p>
-          <p className="font-medium">{data.meetupAnswer ? "Yes" : "No 💔"}</p>
+          <p className="font-medium">
+            {data.meetupAnswer ? SUMMARY.thanksMessage : "No 💔"}
+          </p>
         </div>
 
         {/* DATES */}
